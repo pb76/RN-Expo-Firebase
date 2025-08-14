@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Text, View } from "react-native";
+import { Button, Text, View } from "react-native";
 import { db } from "../FirebaseConfig";
 import { collection, query, orderBy, getDocs } from "firebase/firestore";
 import { AppStyles } from "../styles/AppStyles";
@@ -41,6 +41,7 @@ export default function ReadPosts() {
           </View>
         ))
       )}
+      <Button title="Refresh" onPress={fetchDocs} />
     </View>
   );
 }
