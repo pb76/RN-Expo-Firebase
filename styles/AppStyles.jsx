@@ -7,6 +7,21 @@ export const AppStyles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  card: {
+    backgroundColor: "#f9f9f9",
+    width: "90%",
+    padding: 20,
+    margin: 10,
+    borderRadius: 10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 2,
+    elevation: 2,
+  },
   title: {
     fontSize: 24,
     fontWeight: "bold",

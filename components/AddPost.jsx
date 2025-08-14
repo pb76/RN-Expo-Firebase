@@ -29,8 +29,8 @@ export default function AddPost() {
   };
 
   return (
-    <View style={AppStyles.container}>
-      <Text style={AppStyles.title}>Add a new post</Text>
+    <View style={AppStyles.card}>
+      <Text style={AppStyles.title}>Add a new post:</Text>
       <TextInput placeholder="Title" style={AppStyles.input} value={title} onChangeText={setTitle} />
       <TextInput placeholder="Message" style={AppStyles.input} multiline value={message} onChangeText={setMessage} />
       <Button title="Submit" onPress={postDoc} />

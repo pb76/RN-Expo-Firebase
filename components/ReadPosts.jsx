@@ -29,7 +29,7 @@ export default function ReadPosts() {
   }, []);
 
   return (
-    <View>
+    <View style={AppStyles.card}>
       <Text style={AppStyles.title}>Posts:</Text>
       {loading ? (
         <Text>Loading...</Text>
