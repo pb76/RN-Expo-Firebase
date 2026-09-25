@@ -9,7 +9,7 @@ import UpdatePost from "./components/UpdatePost";
 export default function App() {
   return (
     <ScrollView style={AppStyles.container} contentContainerStyle={AppStyles.containerContent}>
-      <Text>Open up App.js to start working on your app!</Text>
+      {/* <Text>Open up App.js to start working on your app!</Text> */}
       <AddPost />
       {/* <ReadPosts /> */}
       <UpdatePost />
